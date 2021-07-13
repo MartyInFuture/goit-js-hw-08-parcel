@@ -1,13 +1,13 @@
 const imageArr = [
-  './images/back-to-the-future1.jpg',
-  './images/back-to-the-future2.jpg',
-  './images/back-to-the-future3.jpg',
-  './images/lord-of-the-ring1.jpg',
-  './images/lord-of-the-rings2.jpg',
-  './images/lord-of-the-rings3.jpg',
-  './images/star-wars-new-hope.jpg',
-  './images/star-wars-empires-strike-back.jpg',
-  './images/star-wars-return-of-the-jedi.jpg',
+  require('../images/back-to-the-future1.jpg'),
+  require('../images/back-to-the-future2.jpg'),
+  require('../images/back-to-the-future3.jpg'),
+  require('../images/lord-of-the-ring1.jpg'),
+  require('../images/lord-of-the-rings2.jpg'),
+  require('../images/lord-of-the-rings3.jpg'),
+  require('../images/star-wars-new-hope.jpg'),
+  require('../images/star-wars-empires-strike-back.jpg'),
+  require('../images/star-wars-return-of-the-jedi.jpg'),
 ];
 
 const gallery = document.querySelector('.gallery');

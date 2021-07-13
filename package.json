@@ -1,0 +1,26 @@
+{
+  "name": "goit-js-hw-08-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build <your entry file>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartyInFuture/goit-js-hw-08-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartyInFuture/goit-js-hw-08-parcel/issues"
+  },
+  "homepage": "https://github.com/MartyInFuture/goit-js-hw-08-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "images": "^3.2.3"
+  }
+}
