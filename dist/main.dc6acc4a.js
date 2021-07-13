@@ -1,0 +1,22 @@
+parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"vQvR":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/back-to-the-future1.739067c9.jpg";
+},{}],"bf7D":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/back-to-the-future2.e9f0140e.jpg";
+},{}],"ayMq":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/back-to-the-future3.307a202e.jpg";
+},{}],"blUy":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/lord-of-the-ring1.1d3c8fcc.jpg";
+},{}],"K2r6":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/lord-of-the-rings2.d6717e36.jpg";
+},{}],"JVhS":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/lord-of-the-rings3.ff673356.jpg";
+},{}],"xQQl":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/star-wars-new-hope.99f29a22.jpg";
+},{}],"wQVE":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/star-wars-empires-strike-back.f20572dd.jpg";
+},{}],"pzOC":[function(require,module,exports) {
+module.exports="/goit-js-hw-08-parcel/star-wars-return-of-the-jedi.34d0f092.jpg";
+},{}],"d6sW":[function(require,module,exports) {
+for(var e=[require("../images/back-to-the-future1.jpg"),require("../images/back-to-the-future2.jpg"),require("../images/back-to-the-future3.jpg"),require("../images/lord-of-the-ring1.jpg"),require("../images/lord-of-the-rings2.jpg"),require("../images/lord-of-the-rings3.jpg"),require("../images/star-wars-new-hope.jpg"),require("../images/star-wars-empires-strike-back.jpg"),require("../images/star-wars-return-of-the-jedi.jpg")],t=document.querySelector(".gallery"),r=document.querySelector(".modal__button"),i=document.querySelector(".backdrop"),a=document.querySelector(".modal__image"),s=0;s<e.length;s++){var n=document.createElement("li");n.setAttribute("class","gallery__item");var d=document.createElement("img");d.setAttribute("class","gallery__image"),d.setAttribute("src",e[s]),document.querySelector("ul.gallery").appendChild(n).appendChild(d)}function c(e){"LI"!==e.target.nodeName&&"IMG"!==e.target.nodeName||(i.classList.remove("is-hidden"),o("LI"===e.target.nodeName?e.target.querySelector(".gallery__image"):e.target))}function o(e){var t=e.getAttribute("src");a.setAttribute("src",t)}t.addEventListener("click",c),r.addEventListener("click",function(){i.classList.add("is-hidden")}),window.addEventListener("keydown",function(e){"Escape"===e.key&&i.classList.add("is-hidden")}),i.addEventListener("click",function(e){"DIV"===e.target.nodeName&&i.classList.add("is-hidden")}),document.addEventListener("keydown",function(t){if(!i.classList.contains("is-hidden")){var r=e.indexOf(a.getAttribute("src")),s=e.indexOf(e[r]);39===t.keyCode&&s<e.length-1?a.setAttribute("src",e[r+1]):37===t.keyCode&&s>0&&a.setAttribute("src",e[r-1])}});
+},{"../images/back-to-the-future1.jpg":"vQvR","../images/back-to-the-future2.jpg":"bf7D","../images/back-to-the-future3.jpg":"ayMq","../images/lord-of-the-ring1.jpg":"blUy","../images/lord-of-the-rings2.jpg":"K2r6","../images/lord-of-the-rings3.jpg":"JVhS","../images/star-wars-new-hope.jpg":"xQQl","../images/star-wars-empires-strike-back.jpg":"wQVE","../images/star-wars-return-of-the-jedi.jpg":"pzOC"}]},{},["d6sW"], null)
+//# sourceMappingURL=/goit-js-hw-08-parcel/main.dc6acc4a.js.map

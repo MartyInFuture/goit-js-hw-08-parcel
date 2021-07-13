@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build <your entry file>"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08-parcel/"
   },
   "repository": {
     "type": "git",
